@@ -186,7 +186,7 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     header nav {
-        display: block;
+        display: none;
         flex-direction: column;
         background: #333;
         position: absolute;
@@ -196,7 +196,7 @@ footer {
     }
     @media (max-width: 768px) {
         nav ul {
-            display: none;
+            display: flex;
         }
     }
     nav.ul.show {
@@ -208,7 +208,7 @@ footer {
     }
 
     .menu-toggle {
-        display: block;
+        display: inline-block;
         
     } }
 
@@ -421,8 +421,12 @@ header .container {
     @media (max-width: 768px) {
         #navbar {
             display: none;
+            background: #333;
             flex-direction: column;
             position: absolute;
+            top: 60px;
+            right: 0;
+            padding: 10px;
         }
         #navbar.show {
             display: flex;
@@ -431,6 +435,7 @@ header .container {
             display: block;
         }
     }
+
 
 
 
