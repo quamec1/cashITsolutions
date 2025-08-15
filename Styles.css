@@ -48,7 +48,7 @@ header nav a:hover {
 
 /* Mobile Menu */
 .menu-toggle {
-    display: flex;
+    display: none;
     font-size: 1rem;
     cursor: pointer;
     color: #fff;
@@ -186,7 +186,7 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     header nav {
-        display: flex;
+        display: none;
         flex-direction: column;
         background: #333;
         position: absolute;
@@ -412,6 +412,7 @@ nav .menu-toggle {
     font-size: 1rem;
     display: none;
     cursor: pointer;
+
 
 
 
