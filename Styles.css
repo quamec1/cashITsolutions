@@ -184,7 +184,7 @@ footer {
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     header nav {
         display: none;
         flex-direction: column;
@@ -398,7 +398,7 @@ header .container {
     cursor: pointer;
     display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 760px) {
     #navbar {
         display: none;
         flex-direction: column;
@@ -434,6 +434,7 @@ header .container {
 
 
     
+
 
 
 
