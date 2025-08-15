@@ -196,7 +196,7 @@ footer {
     }
     @media (max-width: 768px) {
         nav ul {
-            display: flex;
+            display: none;
         }
     }
     nav.ul.show {
@@ -208,7 +208,7 @@ footer {
     }
 
     .menu-toggle {
-        display: inline-block;
+        display: block;
         
     } }
 
@@ -412,6 +412,7 @@ nav .menu-toggle {
     font-size: 1rem;
     display: none;
     cursor: pointer;
+
 
 
 
