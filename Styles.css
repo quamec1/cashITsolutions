@@ -186,7 +186,7 @@ footer {
 /* Responsive */
 @media (max-width: 768px) {
     header nav {
-        display: none;
+        display: flex;
         flex-direction: column;
         background: #333;
         position: absolute;
@@ -196,7 +196,7 @@ footer {
     }
     @media (max-width: 768px) {
         nav ul {
-            display: none;
+            display: flex;
         }
     }
     nav.ul.show {
@@ -412,6 +412,7 @@ nav .menu-toggle {
     font-size: 1rem;
     display: none;
     cursor: pointer;
+
 
 
 
