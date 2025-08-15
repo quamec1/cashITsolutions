@@ -396,13 +396,16 @@ nav {
     padding: 10px 20px;
 }
 nav .logo {
+    order: 1;
     font-size: 1rem;
     font-weight: bold;
 }
 nav .navbar {
-    font-size: 1rem;
+    margin-left: auto;
+    order: 2;
     coursor: pointer;
 }
+
 
 
 
