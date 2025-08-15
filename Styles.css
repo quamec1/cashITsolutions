@@ -194,6 +194,14 @@ footer {
         right: 0;
         width: 200px;
     }
+    @media (max-width: 768px) {
+        nav ul {
+            display: none;
+        }
+    }
+    nav.ul.show {
+        display: flex;
+    }
     
     header nav.active {
         display: flex;
@@ -379,4 +387,5 @@ box-shadow: 0 8px 18px rgba(0, 0, 1, 1);
     font-size: 25px;
     margin-bottom: 10px;
     color: #007bff;
+
 }
