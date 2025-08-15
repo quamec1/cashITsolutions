@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Godwin Abedi — Web Developer & IT Specialist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta name="description" content="Portfolio of a web developer and IT specialist — projects, skills, contact." />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#hero">Godwinabedi</a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <h1>Hello — I’m <span class="accent">Godwin Abedi</span></h1>
+          <p class="subtitle">I build fast, accessible, and maintainable websites.</p>
+          <p class="typing"><span id="typed">Always learning, always building, my mission is to craft web solutions 
+            that look great, work effortlessly and make an impact.
+          </span><span class="cursor"> </span></p>
+          <div class="hero-cta">
+            <a href="#projects" class="btn">See projects</a>
+            <a href="#contact" class="btn btn-outline">Get in touch</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-inner">
+            <h3>Quick facts</h3>
+            <ul>
+              <li>Web Developer — HTML/CSS/JS</li>
+              <li>IT Specialist — Networks & Support</li>
+          
+            </ul>
+            <div class="socials">
+              <a href="#" aria-label="GitHub">GitHub</a>
+              <a href="#" aria-label="LinkedIn">LinkedIn</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h2>About</h2>
+      <img src="IMG_0928.HEIC" class="profile-pic">
+      <p>
+        I’m a web developer and IT specialist who enjoys building reliable, maintainable experiences on the web.
+        I combine a strong engineering mindset with practical operations and support experience.
+      </p>
+    </section>
+
+    <!--
+    <section id="skills" class="section alt">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill">
+            <h4>Frontend</h4>
+            <div class="bar"><div class="progress" data-progress="90"></div></div>
+            <small>HTML · CSS · JavaScript · Accessibility</small>
+          </div>
+          <div class="skill">
+            <h4>JS & Tooling</h4>
+            <div class="bar"><div class="progress" data-progress="80"></div></div>
+            <small>ES6+ · Build tools · Testing</small>
+          </div>
+          <div class="skill">
+            <h4>DevOps / IT</h4>
+            <div class="bar"><div class="progress" data-progress="75"></div></div>
+            <small>Linux · Networking · Monitoring</small>
+          </div>
+          
+        </div>
+      </div>
+    </section> -->
+
+    <section id="skills">
+<h2>Skills</h2>
+<div class="skills-container">
+  <div class="skill"><i class="fab fa-html"></i>HTML</div>
+<div class="skill"><i class="fab fa-css-alt"></i>CSS</div>
+<div class="skill"><i class="fab fa-js-square"></i>JavaScript</div>
+<div class="skill"><i class="fab fa-git-alt"></i>Git</div>
+<div class="skill"><i class="fab fa-github"></i>GitHub</div>
+<div class="skill"><i class="fab "></i>&  More</div>
+</div>
+
+    </section>
+
+    <section id="projects" class="section container">
+      <h2>Selected Projects</h2>
+      <p class="muted">Click a project to view details.</p>
+
+      <div class="projects-grid" aria-live="polite">
+        <!-- Project card template -->
+        <article class="project" tabindex="0" data-title="Project Alpha" data-desc="A responsive landing page with animations." data-img="">
+          <div class="thumb">
+            <svg viewBox="0 0 200 120" preserveAspectRatio="none" class="thumb-svg" aria-hidden="true">
+              <rect width="200" height="120" fill="#222" />
+            </svg>
+            <div class="thumb-text">
+              <strong>Project Alpha</strong>
+              <small>Landing Page</small>
+              <div class="project-card">
+    
+    <h3>Project Alpha</h3>
+    <p>
+        A responsive task management application that enables teams to create, assign, 
+        and track in real time. Features secure login, task status tracking, and cloud data storage
+        for seamless collaboration.
+    </p>
+    <ul class="project-features">
+        <li>⚡ Fast, responsive design</li>
+        <li>User authentication & role-based access</li>
+        <li>📱 Mobile-friendly layout</li>
+        <li>☁ Cloud-based storage integration</li>
+    </ul>
+   
+    </p>
+    
+</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" tabindex="0" data-title="IT Dashboard" data-desc="Monitoring dashboard for internal ops." data-img="">
+          <div class="thumb">
+            <svg viewBox="0 0 200 120" preserveAspectRatio="none" class="thumb-svg" aria-hidden="true">
+              <rect width="200" height="120" fill="#1a1a1a" />
+            </svg>
+            <div class="thumb-text">
+              <strong>IT Dashboard</strong>
+              <small>Monitoring / Ops</small>
+              <div class="project-card">
+    <h3>IT Monitoring Dashboard</h3>
+    <p>
+        A responsive IT operations dashboard displaying real-time metrics 
+        like server uptime, network bandwidth usage, and open support tickets. 
+        Built with HTML, CSS, JavaScript, and Chart.js for dynamic charts.
+    </p>
+       <p class="tech-stack">
+        <i class="fab fa-html5"></i> HTML
+        <i class="fab fa-css3-alt"></i> CSS
+        <i class="fab fa-js"></i> JavaScript
+        <i class="fas fa-chart-line"></i> Chart.js
+    </p>
+    
+</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="project" tabindex="0" data-title="Portfolio Template" data-desc="This very portfolio template built with vanilla JS." data-img="">
+          <div class="thumb">
+            <svg viewBox="0 0 200 120" preserveAspectRatio="none" class="thumb-svg" aria-hidden="true">
+              <rect width="200" height="120" fill="#111" />
+            </svg>
+            <div class="thumb-text">
+              <strong>Portfolio Template</strong>
+              <p>A fully responsive website i developed showcasing my skills, projects, and contact information.</p>
+              <small>HTML · CSS · JS</small>
+            
+             
+              </p>
+              <div class="project-links">
+                <a href="https://quamec1.github.io/nature_reserves" target="_blank" class="btn">View Live</a> 
+                <a href="https://github.com/quamec1.github.io/nature_reserves" class="btn">Source Code</a>
+
+
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <form id="contactForm" class="contact-grid" novalidate>
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" required minlength="2" />
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" required />
+          </label>
+          <label class="full">
+            <span>Message</span>
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+          <div class="full">
+            <button type="submit" class="btn">Send message</button>
+            <span id="formStatus" class="muted small"></span>
+          </div>
+        </form>
+        <section id="contact">
+            <h3>Connect with us</h3>
+            <a href="tel:0248286530"><i class="fa fa-phone"></i></a>
+            <a href="mail:godwinabedi4@gmail.com"><i class="fa fa-envelope"></i></a>
+            <a href="https://wa.me/0248286530" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.tiktok.com/@cash3781?lang=en" target="_blank"><i class="fab fa-tiktok"></i></a>
+    
+            </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Godwin Abedi — Built with HTML · CSS · JS</small>
+    </div>
+  </footer>
+
+  <!-- Lightbox modal -->
+  <div id="lightbox" class="lightbox hidden" role="dialog" aria-hidden="true">
+    <div class="lightbox-inner" role="document">
+      <button class="lightbox-close" aria-label="Close">✕</button>
+      <h3 id="lb-title"></h3>
+      <p id="lb-desc"></p>
+      <div id="lb-image" class="lb-image"></div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
