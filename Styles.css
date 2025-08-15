@@ -28,7 +28,7 @@ header {
 
 header .logo {
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -48,8 +48,8 @@ header nav a:hover {
 
 /* Mobile Menu */
 .menu-toggle {
-    display: block;
-    font-size: 1rem;
+    display: none;
+    font-size: 1.5rem;
     cursor: pointer;
     color: #fff;
 }
@@ -69,7 +69,7 @@ header nav a:hover {
 }
 
 .hero p {
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 2rem;
 }
 
@@ -194,20 +194,12 @@ footer {
         right: 0;
         width: 200px;
     }
-    @media (max-width: 768px) {
-        nav ul {
-            display: flex;
-        }
-    }
-    nav.ul.show {
-        display: flex;
-    }
     
     header nav.active {
         display: flex;
     }
 
-    .menu-toggle {
+    .smenu-toggle {
         display: inline-block;
         
     } }
@@ -225,7 +217,7 @@ footer {
     .container-web h2 {
         text-align: center;
         color: #2c3e50;
-        font-size: 38px;
+        font-size: 40px;
         margin-bottom: 30px;
     }
 
@@ -254,12 +246,12 @@ footer {
 
 
     .service-card h3 {
-        font-size: 40px;
+        font-size: 45px;
         margin-bottom: 15px;
     }
 
     .service-card .desc {
-        font-size: 33px;
+        font-size: 36px;
         max-width: 600px;
     }
 
@@ -354,7 +346,7 @@ footer {
 
 .see-more-btn {
     display: block;
-    margin-top: 10px;
+    margin-top: 10pxs;
     padding: 10px 15px;
     background-color: #007bff;
     color: white;
@@ -387,72 +379,4 @@ box-shadow: 0 8px 18px rgba(0, 0, 1, 1);
     font-size: 25px;
     margin-bottom: 10px;
     color: #007bff;
-
 }
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: right;
-    padding: 10px 20px;
-}
-nav .logo {
-    order: 1;
-    font-size: 1rem;
-    font-weight: bold;
-}
-nav .menu-toggle {
-    order: 2;
-    coursor: pointer;
-}
-#navbar {
-    display: block;
-    gap: 15px;
-}
-.menu-toggle {
-    font-size: 1rem;
-    display: none;
-    cursor: pointer;
-
-header .container {
-    display: block;
-    justify-content: space-between;
-    align-items: center;
-}
-    @media (max-width: 768px) {
-        #navbar {
-            display: none;
-            background: #333;
-            flex-direction: column;
-            position: absolute;
-            top: 60px;
-            right: 0;
-            padding: 10px;
-            width: 200px;
-        }
-        #navbar.show {
-            display: flex;
-        }
-        .menu-toggle {
-            display: block;
-            color: white;
-        }
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
