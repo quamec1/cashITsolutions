@@ -225,7 +225,7 @@ footer {
     .container-web h2 {
         text-align: center;
         color: #2c3e50;
-        font-size: 40px;
+        font-size: 38px;
         margin-bottom: 30px;
     }
 
@@ -254,12 +254,12 @@ footer {
 
 
     .service-card h3 {
-        font-size: 45px;
+        font-size: 40px;
         margin-bottom: 15px;
     }
 
     .service-card .desc {
-        font-size: 36px;
+        font-size: 33px;
         max-width: 600px;
     }
 
@@ -354,7 +354,7 @@ footer {
 
 .see-more-btn {
     display: block;
-    margin-top: 10pxs;
+    margin-top: 10px;
     padding: 10px 15px;
     background-color: #007bff;
     color: white;
@@ -389,3 +389,4 @@ box-shadow: 0 8px 18px rgba(0, 0, 1, 1);
     color: #007bff;
 
 }
+
