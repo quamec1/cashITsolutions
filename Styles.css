@@ -28,7 +28,7 @@ header {
 
 header .logo {
     display: inline-block;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -49,7 +49,7 @@ header nav a:hover {
 /* Mobile Menu */
 .menu-toggle {
     display: none;
-    font-size: 1.5rem;
+    font-size: 1rem;
     cursor: pointer;
     color: #fff;
 }
@@ -69,7 +69,7 @@ header nav a:hover {
 }
 
 .hero p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 2rem;
 }
 
@@ -389,4 +389,5 @@ box-shadow: 0 8px 18px rgba(0, 0, 1, 1);
     color: #007bff;
 
 }
+
 
