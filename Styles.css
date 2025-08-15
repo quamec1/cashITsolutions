@@ -413,6 +413,26 @@ nav .menu-toggle {
     display: none;
     cursor: pointer;
 
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    @media (max-width: 768px) {
+        #navbar {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+        }
+        #navbar.show {
+            display: flex;
+        }
+        .menu-toggle {
+            display: block;
+        }
+    }
+
+
 
 
 
