@@ -207,7 +207,7 @@ footer {
         display: flex;
     }
 
-    .smenu-toggle {
+    .menu-toggle {
         display: inline-block;
         
     } }
@@ -389,5 +389,6 @@ box-shadow: 0 8px 18px rgba(0, 0, 1, 1);
     color: #007bff;
 
 }
+
 
 
