@@ -427,6 +427,7 @@ header .container {
             top: 60px;
             right: 0;
             padding: 10px;
+            width: 200px;
         }
         #navbar.show {
             display: flex;
@@ -435,6 +436,7 @@ header .container {
             display: block;
         }
     }
+
 
 
 
