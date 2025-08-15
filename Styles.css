@@ -405,7 +405,7 @@ nav .menu-toggle {
     coursor: pointer;
 }
 #navbar {
-    display: flex;
+    display: block;
     gap: 15px;
 }
 .menu-toggle {
@@ -414,7 +414,7 @@ nav .menu-toggle {
     cursor: pointer;
 
 header .container {
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: center;
 }
@@ -437,6 +437,7 @@ header .container {
             color: white;
         }
     }
+
 
 
 
