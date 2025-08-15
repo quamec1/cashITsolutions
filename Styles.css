@@ -400,11 +400,12 @@ nav .logo {
     font-size: 1rem;
     font-weight: bold;
 }
-nav .menu-toggle {
+nav .navbar {
     margin-left: auto;
     order: 2;
     coursor: pointer;
 }
+
 
 
 
