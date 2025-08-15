@@ -400,11 +400,32 @@ nav .logo {
     font-size: 1rem;
     font-weight: bold;
 }
-nav .navbar {
+nav .menu-toggle {
     margin-left: auto;
     order: 2;
     coursor: pointer;
 }
+#navbar {
+    display: flex;
+    gap: 15px;
+}
+.menu-toggle {
+    font-size: 1rem;
+    display: none;
+    cursor: pointer;
+}
+@media (max-width: 768px) {
+    #navbar {
+        display: none;
+    }
+    .menu-toggle {
+        display: block;
+    }
+}
+header.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 
