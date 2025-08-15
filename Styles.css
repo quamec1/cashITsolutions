@@ -48,7 +48,7 @@ header nav a:hover {
 
 /* Mobile Menu */
 .menu-toggle {
-    display: none;
+    display: flex;
     font-size: 1rem;
     cursor: pointer;
     color: #fff;
@@ -412,6 +412,7 @@ nav .menu-toggle {
     font-size: 1rem;
     display: none;
     cursor: pointer;
+
 
 
 
