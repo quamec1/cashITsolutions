@@ -1,0 +1,274 @@
+<!Doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cash IT Consult</title>
+  <link rel="stylesheet" href="Styles.css" />
+</head>    
+<body>
+<header>
+    <div class="container">
+        <h1 class="logo">Cash IT Solutions</h1>
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="index.html">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="menu-toggle" id="mobile-menu">&#9776;</div>
+    </div>
+</header>
+
+<section id="home" class="hero">
+    <div class="hero-content">
+        <h2>Your One-Stop Solution for Web Development & IT Support</h2>
+        <p>Building high-performing websites and managing your IT so you can focus on growth.</p>
+        <a href="#portfolio" class="btn">View Sample</a>
+        <a href="#contact" class="btn btn-outline">Hire Me</a>
+    </div>
+</section>
+<!--<section id="about" class="section">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm Godwin Abedi, a web developer and IT specialist passionate about creating that work for you.
+            I design, build and maintain websites, and I also provide full-scale IT support to help your business run smoothly.
+        </p>
+        <div class="skills">
+            <div class="skill">Web Development</div>
+            <div class="skill">Data Bundle</div>
+            <div class="skill">Graphic Design</div>
+            <div class="skill">IT Support</div>
+            <div class="skill">& Many More</div>
+        </div>
+    </div>
+</section> -->
+
+    <div id="services" class="container-web">
+        <h2>Our Services</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3 class="text">Web Development</h3>
+                    <span class="desc">We design and build professional, responsive websites.</span>
+            </div>
+            <div class="service-card">
+                <h3 class="text">Software Services</h3>
+                    <span class="desc">We install, troubleshoot and optimize softwares.</span>
+              </div> 
+              <div class="service-card"> 
+                <h3 class="text">PC Installation</h3>
+                    <span class="desc">We set up and configure new computer systems.</span>
+            </div>
+            <div class="service-card">
+                <h3 class="text">Online Registrations</h3>
+                    <span class="desc">We handle form filling and online application processes.</span>
+            </div>
+            <div class="service-card">
+                <h3 class="text">Results Checking</h3>
+                    <span class="desc">We assist in checking academic and exam results online.</span>
+        </div>
+        <div class="service-card">
+                <h3 class="text">Install Games/Applications</h3>
+                    <span class="desc">We install games and applications quickly and safely.</span>
+        </div>
+        <div class="service-card">     
+                <h3 class="text">Programming</h3>
+                    <span class="desc">We code custom software solutions tailored to your needs.</span>
+        </div>
+        <div class="service-card">
+                <h3 class="text">Flyers, Logos, Banners etc.</h3>
+                    <span class="desc">We design creative marketing materials.
+                       
+                    </span>
+        </div>
+
+
+        <div class="service-card">
+                <h3 class="text">Data Bundle Packages</h3>
+                    <span class="desc">We sell and configure affordable internet packages. <br>
+                        
+                    
+                    </span>
+        </div>
+        <div class="service-card">
+                <h3 class="text">& Many More</h3>
+                    <span class="desc">We offer other tech-related services upon request.</span>
+        </div>
+                
+              
+            </div>
+        </div>
+    </div>
+    <script>
+    const backgrounds = [
+        "webdev.JPG", 
+        "software.WEBP", 
+        "pc insta.jpg", 
+        "Online-Registration.jpg", 
+        "resultss.jpeg", 
+        "apps.jpg", 
+        "css.jpg",
+        "flyer.jpg",
+        "WhatsApp Image 2025-08-10 at 09.54.26_43524320.jpg",
+        "more.jpg",
+    ];
+   const cards = document.querySelectorAll(".service-card");
+   let cardIndex = 0;
+
+   function showCard() {
+    cards.forEach(c => c.style.display = "none");
+    const currentImage = backgrounds[cardIndex];
+    cards[cardIndex].style.display = "block";
+    cards[cardIndex].style.backgroundImage = `url('${backgrounds[cardIndex]}')`;
+    cardIndex = (cardIndex + 1) % cards.length;
+    }
+    setInterval(showCard, 3000);
+    showCard();
+</script> 
+
+<section id="portfolio" class="section">
+        <div class="container services-row">
+            <div class="portfolio-grid">
+            <h2>Web Development</h2>            
+                    <p>We design and build responsive, user friendly websites tailored to your needs. From personal blogs to business platforms, 
+                        we ensure your site is visually appealing, fast, and easy to navigate.
+                    </p>
+                    <a href="https://github.com/quamec1.github.io/nature_reserves" class="btn">View Live</a>
+                    <a href="https://github.com/quamec1.github.io" class="btn btn-outline">Source Code</a>
+                </div>
+                           
+        <div class="portfolio-grid">
+            <h2>Flyers, Logos, Banners etc.</h2>                   
+                    <p>We design professional flyers, logos, banners etc that capture attention and communicate your message 
+                        clearly. <br> Our creative designs are tailored to your brand and optimized for both print and digital use.
+                    </p>
+                    <a href="WhatsApp Image 2025-08-10 at 09.53.22_a79bcd7e.jpg" class="btn btn-outline">click to view</a>
+                    <a href="WhatsApp Image 2025-08-10 at 09.54.26_43524320.jpg" class="btn btn-outline">click to view</a>
+                </div>
+                
+                <div class="portfolio-grid">
+            <h2>Data Bundle Packages</h2>                    
+                    <p>We offer affordable and reliable data bundle packages for all major networks. <br>
+                    Whether for personal or business use. Our plans ensure you stay connected with fast and secure internet access. </p>
+                    <a href="WhatsApp Image 2025-08-10 at 09.53.45_1e625a06.jpg" class="btn btn-outline">click to view</a>
+                    <a href="WhatsApp Image 2025-08-10 at 09.54.26_43524320.jpg" class="btn btn-outline">click to view</a>
+                    <a href="WhatsApp Image 2025-08-10 at 09.55.08_aabf9c10.jpg" class="btn btn-outline">click to view</a>
+                </div>
+
+                 <div class="portfolio-grid">
+            <h2>Software Services</h2>                    
+                    <p>We install, configure, and maintain all types of computer software, from operating
+                         systems and office tools to specialized applications. <br> Our team 
+                        handles updates, fixes issues, removes viruses and ensures your programs run 
+                    smoothly and securely.</p>
+            <a href="software.webp" class="btn btn-outline">view</a>
+
+                </div>
+
+                    <div class="portfolio-grid">
+            <h2>PC Installation</h2>                    
+                    <p>We set up new computers for optimal performance-installing the operating system, 
+                        essential drivers and required applications. <br>
+                    We also configure settings and security features so your PC is ready to use
+                right away. </p>
+        
+                </div>
+    <div class="portfolio-grid">
+            <h2>Online Registrations</h2>                    
+                    <p>We assist with all types of online registrations-including exam applications, school admissions,
+                         and event sign-ups. Our service ensures forms are completed accurately and submitted on time. </p>
+          
+                    
+                </div>
+        </div>
+        </section>
+
+ <div class="button-wrapper">       
+             <button class="see-more-btn" onclick="toggleExtraService()">See More</button>
+    </div>
+
+<section>
+    <div id="extra-service" style="display: none;">
+        <div class=" container services-row">
+                <div class="portfolio-grid">
+                    <h2>Results Checking</h2>
+                    <p>We help you check academic and professional exam results quickly and securely, guiding you 
+                        through online portals to ensure you access accurate information without hassle.
+                    </p>
+                </div>
+                
+                <div class="portfolio-grid">
+                    <h2>Install Games/Applications</h2>
+                    <p>We install games and applications on your devices, ensuring they are safe, up-to-date,
+                         and optimized for smooth performance, whether for work, education or entertainment.
+                    </p>
+                </div>
+
+                <div class="portfolio-grid">
+                    <h2>Programming</h2>
+                    <p>We develop custom software solutions tailored to your needs, from small scripts to full 
+                        applications. Our programming services are designed to improve efficiency and bring your 
+                        ideas to life.
+                    </p>
+                </div>
+</div>
+</div>
+                </section>
+
+
+<script>
+    function toggleExtraService() {
+        var section = document.getElementById("extra-service");
+        var button = document.querySelector(".see-more-btn");
+        if (section.style.display === "none") {
+            section.style.display = "block";
+            button.textContent = "See Less";
+        } else {
+            section.style.display = "none";
+            button.textContent = "See More";
+        }
+    }
+</script>
+              
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: godwinabedi4@gmail.com</p>
+                <p>Phone: +233248286530</p>
+                <div class="social-links">
+                    <a href="https://quamec1.github.io">GitHub</a>
+                    <a href="https://wa.me/0248286530">Whatsapp</a>
+                    <a href="https://www.tiktok.com/@cash3781?lang=en">TikTok</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Cash IT Solutions. All rights reserved.</p>
+    </footer>
+
+    <script src="SCRIPTS.JS"></script>
+    <script>
+        function toggleDesc(item) {
+            const desc = item.querySelector(".desc");
+            desc.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
+
+</body>
