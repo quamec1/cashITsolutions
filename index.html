@@ -242,31 +242,7 @@
                 <textarea placeholder="Your Message" required></textarea>
                 <button type="submit" class="btn">Send Message</button>
             </form>
-          <script>
-            document.getElementById("contactForm").addEventListener("submit", function(e) {
-              e.preventDefault();
-
-              const formData = {
-                name: this.name.value,
-                email: this.email.value;
-                  message: this.message.value;
-            };
-             fetch("https://script.google.com/macros/s/AKfycbyxbodTiR-6uTjfFv9LUK-ntS6JWP0H7g1-wUC6A_ysoreXhUMt6-gA6i9n7hrj5Ink/exec", {
-               method: "POST",
-               body: JSON.stringify(formData)
-             })
-               .then(res => res.json())
-               .then(data => {
-                 if (data.status === "success") {
-                   alert("Message saved successfully!");
-                   this.reset();
-                 } else {
-                   alert("Error: " + data.message);
-                         }
-               })
-               .catch(err => alert("Network Error: " + err));
-                });
-                      </script>
+       
                  
 
 
